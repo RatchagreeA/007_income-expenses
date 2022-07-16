@@ -1,6 +1,12 @@
 import "./App.scss";
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+    HashRouter as Router,
+    Routes,
+    Route,
+    Link,
+    Navigate,
+} from "react-router-dom";
 import DataContext from "./data/DataContext";
 import FormComponent from "./components/FormComponent";
 import Transaction from "./components/Transaction";
@@ -49,14 +55,26 @@ function App() {
                     <div>
                         <ul className="Horizontal-menu">
                             <li>
-                                <Link to="/">Summary</Link>
+                                <Link to="/summary">Summary</Link>
                             </li>
                             <li>
                                 <Link to="/update">Update</Link>
                             </li>
                         </ul>
                         <Routes>
-                            <Route path="/" element={<ReportComponent />} />
+                            <Route
+                                path="*"
+                                element={<Navigate to="/update" />}
+                            />
+                            <Route
+                                path="/summary"
+                                element={
+                                    <ReportComponent
+                                        income={reportIncome}
+                                        expense={reportExpense}
+                                    />
+                                }
+                            />
                             <Route
                                 path="/update"
                                 element={
