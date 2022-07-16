@@ -1,0 +1,29 @@
+.report-container {
+    padding-top: 15px;
+    width: 315px;
+    word-wrap: break-word;
+    .detail-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        margin: 15px 0;
+        .detail {
+            flex: 1;
+            text-align: center;
+            padding: 5px;
+            .report {
+                width: 150px;
+                font-size: 20px;
+                letter-spacing: 1px;
+                margin: 5px auto;
+                word-wrap: break-word;
+                &.plus {
+                    color: #2ecc71;
+                }
+                &.minus {
+                    color: red;
+                }
+            }
+        }
+    }
+}
