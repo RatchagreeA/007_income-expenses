@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/income-expenses/static/css/main.2a94fe83.css",
-    "main.js": "/income-expenses/static/js/main.a6c77f22.js",
-    "static/js/787.b6e215f3.chunk.js": "/income-expenses/static/js/787.b6e215f3.chunk.js",
-    "index.html": "/income-expenses/index.html",
-    "main.2a94fe83.css.map": "/income-expenses/static/css/main.2a94fe83.css.map",
-    "main.a6c77f22.js.map": "/income-expenses/static/js/main.a6c77f22.js.map",
-    "787.b6e215f3.chunk.js.map": "/income-expenses/static/js/787.b6e215f3.chunk.js.map"
+    "main.css": "/007_income-expenses/static/css/main.2a94fe83.css",
+    "main.js": "/007_income-expenses/static/js/main.9e107018.js",
+    "static/js/787.5c10ee90.chunk.js": "/007_income-expenses/static/js/787.5c10ee90.chunk.js",
+    "index.html": "/007_income-expenses/index.html",
+    "main.2a94fe83.css.map": "/007_income-expenses/static/css/main.2a94fe83.css.map",
+    "main.9e107018.js.map": "/007_income-expenses/static/js/main.9e107018.js.map",
+    "787.5c10ee90.chunk.js.map": "/007_income-expenses/static/js/787.5c10ee90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a94fe83.css",
-    "static/js/main.a6c77f22.js"
+    "static/js/main.9e107018.js"
   ]
 }
