@@ -16,4 +16,4 @@ Income-Expense Recorder is a web app that lets users record income or expense an
 1. A summary of income, expense and remaining balance is shown in the Summary section.
 2. Enter additional income or expenses in the Update section.
 
-Link Demo : https://ratchagreea.github.io/007_income-expenses
+[Link Demo Here!](https://ratchagreea.github.io/007_income-expenses)
